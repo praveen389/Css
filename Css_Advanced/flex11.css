@@ -1,0 +1,30 @@
+ul{
+    background-color: lightgray;
+    padding: 20px;
+    height: 300px;
+    display: flex;
+
+
+}
+li{
+    list-style: none;
+    color: #fff;
+    background-color: dodgerblue;
+    margin: 20px;
+    padding: 10px;
+    
+    
+}
+
+li:first-child{
+ align-self: flex-end;
+}
+li:nth-child(2){
+align-self: center;
+}
+li:nth-child(4){
+    align-self: baseline;
+    }
+li:nth-child(2){
+        align-self: flex-start;
+        }    

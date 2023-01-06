@@ -1,0 +1,86 @@
+.grid-container{
+    background-color: coral;
+    display: grid;
+    height: 700px;
+    grid-gap: 25px;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: repeat(2,150px);
+
+}
+
+/* justify -content */
+
+/* justify-content:stretch;
+justify-content:end;
+justify-content:start;
+justify-content:center;
+justify-content:space-between;
+justify-content:space-around;
+justify-content:space-evenly; */
+
+/* allign -content */
+
+/* align-content:stretch;
+align-content:end;
+align-content:center;
+align-content:space-between;
+align-content:space-around;
+align-content:space-evenly; */
+
+
+/* 
+place contentproerty for align content and justify content */
+
+
+/* place-content:start end;
+place-content:start center;
+place-content:center;
+place-content:stretch center;
+place-content:space-around;
+place-content:space-between;
+place-content:space-evenly;
+place-content:space-around space-evenly;
+place-content:space-around space-between;
+place-content:space-around space-around;
+place-content:space-around space-evenly;
+place-content:space-around space-around;
+place-content:space-around space-between; */
+
+.item{
+    font-size: 2rem;
+    letter-spacing: 3px;
+    background-color: antiquewhite;
+    text-align:center;
+}
+.item1{
+    background-color: chartreuse;
+  
+}
+.item2{
+    background-color: chartreuse;
+  
+}
+.item3{
+    background-color: chartreuse;
+ 
+}
+.item4{
+    background-color: chartreuse;
+    
+}
+.item5{
+    background-color: chartreuse;
+  
+}
+.item6{
+    background-color: chartreuse;
+
+}
+.item7{
+    background-color: chartreuse;
+   
+}
+.item8{
+    background-color: chartreuse;
+
+}

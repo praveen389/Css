@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border:5px solid red;
+    min-height:100vh;
+    display: grid;
+
+}
+
+.cell{
+    padding: 2em;
+    background-color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+    border:3px solid green;
+    color: blue;
+}
+.cell-1{
+    background-color: rgb(49, 49, 5);
+
+}
+.cell-2{
+    background-color: rgb(212, 212, 69);
+
+}
+.cell-3{
+    background-color: rgb(249, 249, 65);
+
+}
+.cell-4{
+    background-color: rgb(36, 8, 14);
+
+}
+.cell-5{
+    background-color: rgb(102, 21, 146);
+
+}
+.cell-6{
+    background-color: rgb(12, 101, 17);
+
+}

@@ -1,0 +1,73 @@
+ /* css grid */
+
+ /* css grid works in both row and cloums so it is 2d layer
+
+ css grid consists of parent element with one or more child element */
+
+ .grid-container{
+    background-color: coral;
+    /* initializing grid layout */
+    display: grid;
+
+    /* grid container properties */
+
+    grid-template-columns: 150px150;
+
+    grid-template-rows: 150px 150px 150px 150px;
+
+    /* grid column gap properties */
+    grid-column-gap:10px;
+    grid-column-gap:1.5em;
+    grid-column-gap:5%;
+    grid-column-gap:7vw;
+
+    /* standardsyntax */
+
+    column-gap: 10px;
+    column-gap: 1.5em;
+    column-gap: 5%;
+    column-gap: 7vw;
+
+    /* grid row property */
+
+    grid-row-gap:10px;
+    grid-row-gap:1.5em;
+    grid-row-gap:5%;
+    grid-row-gap:7vw;
+
+     /* standardsyntax */
+     row-gap:10px;
+     row-gap:1.5em;
+     row-gap:5%;
+     row-gap:7vw;
+
+     /* shothand property for grid -column gap and grid row gap */
+
+     /* <grid-row-gap><grid-column-gap> */
+
+     /* old syntax */
+
+     grid-gap:15px 25px;
+     grid-gap:10% 15%;
+     grid-gap:5vh 15vw;
+     grid-gap:25px 10rem;
+
+     /* standard syntax */
+
+     gap:15px 25px;
+     gap:10% 15%;
+     gap:5vh 15vw;
+     gap:25px 10rem;
+
+
+
+
+
+
+
+
+ }
+
+ .item{
+    background-color: yellow;
+ }
